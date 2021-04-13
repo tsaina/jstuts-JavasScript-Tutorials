@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstDiv">
+        <h1 id='fTitle'>Another Heading</h1>
+        <h2>Small Heading</h2>
+    </div>
+
+    <div id="secDiv">
+        <p id="firstPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. asperiores repellat sequi 
+            possimus voluptatibus, libero animi, illo eveniet!</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Php</li>
+            <li>Python</li>
+        </ul>
+    </div>
+    <script>
+        /*
+            ****How to write good JS****
+            1- Always leave comments.
+            2- JS is case sensitive
+            3- Use camelcase.
+            4- Make use of whitespacing to make your code more readable.
+            5- You have to follow JS rules to construct a variable name.
+        
+
+        var name = prompt('What is your name?');
+        //document.body.innerHTML = 'Welcome ' + name;
+        alert('Welcome ' + name);
+        alert('The length of your name is ' + name.length);
+
+        // EXAMINE THE DOCUMENT OBJECT //
+
+        console.log(document.domain);
+        console.log(document.URL);
+        console.log(document.title);
+        document.title = "My Title";
+        console.log(document.title);
+        console.log(document.doctype);
+        console.log(document.head);
+        console.log(document.body);
+        console.log(document.all);
+        console.log(document.all[8]);
+        document.all[8].textContent = 'New Heading';
+        console.log(document.images);
+
+        // GETELEMENTBYID //
+        console.log(document.getElementById('fTitle'));
+        headerTitle = document.getElementById('fTitle');
+        headerTitle.textContent = 'Hello';
+        headerTitle.innerText = 'New Hello';
+        console.log(headerTitle.innerText);
+        */
+
+        // TRAVERSING THE DOM //
+
+        // parentNodes
+        var node = document.querySelector('#secDiv');
+        // console.log(node.parentNode);
+        //node.parentNode.style.backgroundColor = 'red';
+
+        // parentElement
+        // var node = document.querySelector('#fTitle');
+        // console.log(node.parentElement);
+        // node.parentElement.style.backgroundColor = 'red';
+
+        // childNodes
+        // console.log(node.childNodes);
+        // console.log(node.children);
+        // console.log(node.children[1]);
+        // node.children[1].style.backgroundColor = 'yellow';
+
+        // firstChild
+        // console.log(node.firstChild);
+        
+        // firstElementChild
+        // console.log(node.firstElementChild);
+
+        // lastChild
+        // console.log(node.lastChild);
+
+        // lastElementChild
+        // console.log(node.lastElementChild);
+    </script>
+</body>
+</html>

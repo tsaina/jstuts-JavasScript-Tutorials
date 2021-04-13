@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Another Heading</h1>
+
+    <script>
+        /*
+            ****How to write good JS****
+            1- Always leave comments.
+            2- JS is case sensitive
+            3- Use camelcase.
+            4- Make use of whitespacing to make your code more readable.
+            5- You have to follow JS rules to construct a variable name.
+        
+        
+        // WHILE LOOP
+        var i = 20;
+        while (i <= 30) {
+            document.body.innerHTML = "Hey, you\'re getting old!";
+            i++;
+        }
+        
+       
+        //NESTED LOOPS
+        for (var i = 0; i < 3; i++) {
+            for (var j = 0; j <= 2; j++) {
+                console.log("i: " + i);
+                console.log("j: " + j);
+                console.log("i*j: " + (i*j));
+            };
+            
+        }
+    
+    
+    //Multiplication Table
+    for(var i = 0; i < 10; i++) {
+        console.log("The multiplication table for " + i);
+        for(var j = 0; j <= 10; j++) {
+            console.log(i + ' * ' + j + ' :' + (i*j));
+        }
+    }
+    
+    //WHILE LOOP - checks status the executes if true
+    var i = 1;
+    while (i <= 10) {
+        console.log(i + " This is a while loop!");
+        i++;
+    }
+    
+    //DO WHILE LOOP - executes code before checking whether true or false
+    var i = 0;
+    do {
+        console.log(i + ' This is a do while loop!');
+        i++;
+    } while (i <= 10);
+    */
+
+    //BREAK KEYWORD - Used to jump out of a loop.
+    //CONTINUE KEYWORD - Used to break one iteration.
+    var i = 0;
+    while (i <= 10) {
+        i++;
+        if (i === 5) {
+            //break;
+            continue;
+        }
+        console.log(i + " Using the break keyword!");
+    }
+    
+    </script>
+</body>
+</html>
